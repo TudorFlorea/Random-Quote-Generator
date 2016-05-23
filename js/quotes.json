@@ -279,24 +279,24 @@
     "id": 47,
     "Author": "Aristotle",
     "Quote": "Love is composed of a single soul inhabiting two bodies.",
-    "link": "http://res.cloudinary.com/tudorflorea/image/upload/v1460320612/Aristotle-Altemps_ofs6ms.jpg"
+    "link": "./images/Aristotle.jpg"
   },
   {
     "id": 48,
     "Author": "Aristotle",
     "Quote": "The roots of education are bitter, but the fruit is sweet.",
-    "link": "http://res.cloudinary.com/tudorflorea/image/upload/v1460320612/Aristotle-Altemps_ofs6ms.jpg"
+    "link": "./images/Aristotle.jpg"
   },
   {
     "id": 49,
     "Author": "Aristotle",
     "Quote": "Happiness depends upon ourselves.",
-    "link": "http://res.cloudinary.com/tudorflorea/image/upload/v1460320612/Aristotle-Altemps_ofs6ms.jpg"
+    "link": "./images/Aristotle.jpg"
   },
   {
     "id": 50,
     "Author": "Aristotle",
     "Quote": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
-    "link": "http://res.cloudinary.com/tudorflorea/image/upload/v1460320612/Aristotle-Altemps_ofs6ms.jpg"
+    "link": "./images/Aristotle.jpg"
   }
 ]
