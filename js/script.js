@@ -1,17 +1,15 @@
 $(document).ready(function () {
+        var randId, htmlQuotes, htmlImages, tweet;
         
     //================== Generate the first random quote ===========================//
         
         $.getJSON('js/quotes.json', function(json){
-            var randId = Math.floor(Math.random() * json.length + 1);
-            console.log("json.length " + json.length);
-			var htmlQuotes = "";
-			var htmlImages= "";
-			var tweet = "";
-			console.log("randId is " + randId);
+            randId = Math.floor(Math.random() * json.length + 1);
+			htmlQuotes = "";
+			htmlImages= "";
+			tweet = "";
         	json = json.filter(function (val) {
           	return (val.id == randId);
-            console.log("json.length after filter" + json.length);
         });  
        json.forEach(function(val) {
 			htmlQuotes += "<p><i class='fa fa-quote-left'></i>" + val.Quote + "<i class='fa fa-quote-right' aria-hidden='true'></i></p>";
@@ -35,7 +33,6 @@ $(document).ready(function () {
 			htmlQuotes = "";
 			htmlImages = "";
 			tweet = "";
-			console.log("randId is " + randId);
         json = json.filter(function (val) {
           return (val.id == randId);
         });  
